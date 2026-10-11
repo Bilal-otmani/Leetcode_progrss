@@ -14,7 +14,7 @@ class Solution {
         }
         return s.substring(start, end + 1);
     }
-}
+
     private int ispal(String s, int l, int r) {
         while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
             l--;
